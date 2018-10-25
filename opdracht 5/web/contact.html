@@ -1,0 +1,61 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/contactsheet.css">
+    <script>
+        var bleep = new Audio();
+bleep.src = '../Audio/saltyballs.mp3';
+
+var bleep1 = new Audio();
+bleep1.src = '../Audio/halva.mp3';
+
+</script>
+</head>
+
+<body>
+    <a class="active" href="index.html" > <input onclick="bleep1.play()"class="lol" type="button" value="Go back"></a>
+    <h1>Contact Form</h1>
+    <h3>if you wish to contact me</h3>
+
+    <li> name: jirka ruzicka </li>
+    <li> address:
+        <img class="chef" src="../Images/chef.png" alt="saltyballs" onclick="bleep.play()">
+        <img class="gopnik" src="../Images/cheeki%20breeki.jpg" alt="mega" onclick="bleep1.play()">
+        <div id="map"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10054.125481809418!2d4.300515242156163!3d50.95087917275906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3ea16c52c624d%3A0x71c07a5a2bdf067d!2sWolvertem%2C+1861+Meise!5e0!3m2!1snl!2sbe!4v1539944615971" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <li> email: jirkabuscus@hotmail.be </li>
+    <li>postalcode: 1861</li>
+    <br />
+
+
+    <h1>Your Info</h1>
+    <div class="container">
+        <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value="australia">Belgium</option>
+                <option value="canada">France</option>
+                <option value="canada">the Nederlands</option>
+                <option value="usa">Germany</option>
+            </select>
+
+            <label for="email"> Email</label>
+            <input type="email" id="email" name="email" placeholder="your email address" required> <br />
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+
+        </form>
+    </div>
+    </div>
+</body>
+</html>

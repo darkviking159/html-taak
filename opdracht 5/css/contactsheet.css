@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+    background-image: url(../Images/neutral-wallpaper-HD1.jpg);
+     background-size: 100em 1400px;
+    background-repeat: no-repeat;   
+    
+
+}
+
+#email {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    resize: vertical;
+
+
+}
+.chef{
+    width= 50px;
+    height: 190px;
+    position: absolute;
+    right: 0;
+
+}
+.gopnik{
+    width= 50px;
+    height: 190px;
+    position: absolute;
+    left: 0;
+}
+li{
+    text-align: center;
+}
+
+#map {
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h1 {
+    text-align: center;
+
+}
+h3{
+    text-align: center;
+}
+
+input[type=button] {
+    background-color: blue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: blue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    padding: 20px;
+}

@@ -1,0 +1,70 @@
+body
+{
+    background-color: gray;
+    background-image: url(../Images/six%20sieg.jpg);
+    background-position: center;
+    color: white;
+}
+li
+{
+    font-size: 25px;
+    color: whitesmoke
+}
+b{
+    font-size: 30px;
+    color: crimson
+}
+h1
+{
+    font-size:50px;
+    text-align: center;
+    color: firebrick
+}
+h3
+{
+    font-size: 25px;
+    
+}
+ 
+table
+{
+    border-style: dashed;
+    border: 5px;
+}
+
+td
+{
+    padding: 10px;
+}
+    
+
+
+
+ul.cl {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul.cl li {float: left;}
+
+ul.cl li a {
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+ul.cl li a:hover:not(.active) {background-color: #555;}
+
+ul.cl li a.active {background-color: ;}
+
+ul.cl li.right {float: right;}
+
+a
+{
+    text-decoration: none;
+}

@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background-image: url(../Images/neutral-wallpaper-HD1.jpg);
+    background-repeat: no-repeat;
+    background-size: 110em 1400px;
+    background-color: dimgray;
+
+}
+
+h4 {
+    font-size: 25pt;
+
+}
+h1{
+    color: purple;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    text-align: center;
+    background: lightgrey;
+    background-image: url(../Images/dbd66f87d85aff18ecfbbd6a66e38621.jpg);
+    background-size: 95em 210px;
+    background-repeat: no-repeat;
+
+
+}
+
+.test {
+    font-size: 15pt;
+    text-align: center;
+
+}
+
+.twitter {
+    width: 25px;
+
+
+
+}
+
+.hagrit {
+    width: 200px;
+}
+
+.vid1 {
+    width: 310px;
+    height: 250px;
+
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: lightgrey;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: dimgray;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.image {
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 0px 0 0 10px;
+    -webkit-animation: spin 4s linear;
+    -moz-animation: spin 4s linear;
+    animation: spin 4s linear;
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.zoom {
+    padding: 0px;
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.zoom1 {
+    padding: 0px;
+    transition: transform .2s; /* Animation */
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.zoom1:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
